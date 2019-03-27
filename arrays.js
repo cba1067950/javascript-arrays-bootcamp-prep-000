@@ -14,3 +14,7 @@ function accessElementInArray(array, index){
   return array[index];
 }
 
+function addElementToEndofArray(array, element){
+  array = [element, array...];
+  return array;
+}
