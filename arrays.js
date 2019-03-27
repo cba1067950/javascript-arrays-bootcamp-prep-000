@@ -5,10 +5,6 @@ function addElementToBeginningOfArray(array, element){
   return array;
 }
 
-var myArray[];
-addElementToBeginningOfArray(myArray, "Test");
-console.dir(myArray);
-
 function destructivelyAddElementToBeginningOfArray(array, element){
   array = array.unshift[element];
   return array;
