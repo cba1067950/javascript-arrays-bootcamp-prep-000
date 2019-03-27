@@ -4,12 +4,12 @@ function addElementToBeginningOfArray(array, element){
   array = [element, ...array];
   return array;
 }
-/*
+
 function destructivelyAddElementToBeginningOfArray(array, element){
   array = array.unshift[element];
   return array;
 }
-
+/*
 function addElementToEndofArray(array, element){
   array = [...array, element];
   return array;
